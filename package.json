@@ -13,6 +13,7 @@
     "zone.js": "^0.8.20"
   },
   "devDependencies": {
+    "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.0.0"
   }
 }
