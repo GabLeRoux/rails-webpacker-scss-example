@@ -23,3 +23,4 @@ yarn-debug.log*
 
 .env
 /public/assets/
+yarn-error.log

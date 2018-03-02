@@ -6,7 +6,7 @@ default: &default
   database: <%= ENV['MYSQL_DATABASE'] %>
   username: <%= ENV['MYSQL_USER'] %>
   password: <%= ENV['MYSQL_PASSWORD'] %>
-  host: <%= ENV['MYSQL_HOST'] %>
+  host: <%= ENV['RAILS_DATABASE_HOST'] %>
 
 development:
   <<: *default

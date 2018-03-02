@@ -24,7 +24,6 @@ Once everything seems fine, install missing dependencies and run `assets:precomp
 ```bash
 docker-compose exec web bundle
 docker-compose exec web yarn
-docker-compose exec web npm rebuild node-sass --force
 docker-compose exec web bundle exec rake db:migrate
 docker-compose exec web bundle exec rake db:seed
 docker-compose exec web bundle exec rake assets:precompile
@@ -36,6 +35,12 @@ You should now be able to visit your app at http://localhost:3000
 If you edit sass files, changes should be picked up automatically by `webpack-dev-server` :+1:
 
 :v:
+
+## In case of troubles with node-sass
+
+```bash
+docker-compose exec web bundle exec rake assets:precompile
+```
 
 ## License
 
