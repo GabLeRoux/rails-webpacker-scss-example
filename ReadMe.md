@@ -42,6 +42,10 @@ If you edit sass files, changes should be picked up automatically by `webpack-de
 docker-compose exec web bundle exec rake assets:precompile
 ```
 
+## Interesting issues with fixes
+
+* [Node Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x #1](https://github.com/GabLeRoux/rails-webpacker-scss-example/issues/1)
+
 ## License
 
 [MIT](LICENSE.md) © [Gabriel Le Breton](https://gableroux.com)
