@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.9'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'webpacker', '~> 3.2'
+gem 'webpacker', '~> 4.0'
 gem 'mysql2', '~> 0.3.18'
 
 # Use ActiveModel has_secure_password
