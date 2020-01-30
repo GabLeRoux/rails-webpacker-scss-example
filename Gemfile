@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.9'
 gem 'sdoc', '~> 1.0.0', group: :doc
 
 gem 'webpacker', '~> 4.2'
-gem 'mysql2', '~> 0.5.2'
+gem 'mysql2', '~> 0.5.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
